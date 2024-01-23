@@ -1,0 +1,13 @@
+@use '../base/variable' as v;
+@use '../base/mixin' as m;
+
+.imagen_logo{
+    width: map-get(v.$imagenes, tamaño);
+    height: map-get(v.$imagenes, altura);
+}
+.titulo {
+    color: map-get(v.$fuente, color_fuente );
+}
+.subtitulo{
+    color: map-get(v.$fuente, color_fuente );
+}

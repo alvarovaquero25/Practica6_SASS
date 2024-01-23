@@ -1,0 +1,167 @@
+.imagen_logo {
+  width: 150px;
+  height: 100px;
+}
+
+.titulo {
+  color: rgb(255, 0, 251);
+}
+
+.subtitulo {
+  color: rgb(255, 0, 251);
+}
+
+nav {
+  background-color: rgb(242, 140, 240);
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li :hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 251);
+  font-weight: bold;
+}
+
+.facebook {
+  background-color: rgb(0, 255, 123);
+}
+
+.linkedin {
+  background-color: rgb(0, 166, 255);
+}
+
+.instagram {
+  background-color: rgb(187, 0, 255);
+}
+
+.youtube {
+  background-color: rgb(255, 0, 51);
+}
+
+.twitter {
+  background-color: rgb(95, 110, 121);
+}
+
+.pinterest {
+  background-color: rgb(218, 126, 7);
+}
+
+.imagenes_logo {
+  width: 100px;
+  height: 100px;
+}
+
+.paleta_principal_1 {
+  background-color: rgb(178, 34, 34);
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+}
+
+.paleta_principal_2 {
+  background-color: rgb(173, 255, 47);
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+}
+
+.paleta_principal_3 {
+  background-color: rgb(0, 143, 255);
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+}
+
+.paleta_principal_4 {
+  background-color: rgb(138, 43, 226);
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+}
+
+.tonalidad_rojo_claro {
+  background-color: #e47070;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.tonalidad_rojo {
+  background-color: rgb(178, 34, 34);
+  width: 80px;
+  height: 80px;
+}
+
+.tonalidad_rojo_oscuro {
+  background-color: #470e0e;
+  width: 80px;
+  height: 80px;
+}
+
+.tonalidad_verde_claro {
+  background-color: #dfffaf;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.tonalidad_verde {
+  background-color: rgb(173, 255, 47);
+  width: 80px;
+  height: 80px;
+}
+
+.tonalidad_verde_oscuro {
+  background-color: #6aaf00;
+  width: 80px;
+  height: 80px;
+}
+
+.tonalidad_azul_claro {
+  background-color: #80c7ff;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.tonalidad_azul {
+  background-color: rgb(0, 143, 255);
+  width: 80px;
+  height: 80px;
+}
+
+.tonalidad_azul_oscuro {
+  background-color: #004880;
+  width: 80px;
+  height: 80px;
+}
+
+.tonalidad_violeta_claro {
+  background-color: #c89bf1;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.tonalidad_violeta {
+  background-color: rgb(138, 43, 226);
+  width: 80px;
+  height: 80px;
+}
+
+.tonalidad_violeta_oscuro {
+  background-color: #49117c;
+  width: 80px;
+  height: 80px;
+} 
+
+/*# sourceMappingURL=app.css.map */

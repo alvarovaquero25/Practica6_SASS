@@ -1,0 +1,17 @@
+@use '../base/variable' as v;
+
+@mixin fondo($color){
+    @if $color == 'facebook'{
+        background-color: map-get(v.$colores_redes , color_facebook);
+    } @else if $color == 'linkedin'{
+        background-color: map-get(v.$colores_redes , color_linkedin);
+    } @else if $color == 'instagram'{
+        background-color: map-get(v.$colores_redes , color_instagram);
+    } @else if $color == 'youtube'{
+        background-color: map-get(v.$colores_redes , color_youtube);
+    } @else if $color == 'twitter'{
+        background-color: map-get(v.$colores_redes , color_twitter);
+    } @else if $color == 'pinterest'{
+        background-color: map-get(v.$colores_redes , color_pinterest);
+    }
+}
