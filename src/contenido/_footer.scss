@@ -1,2 +1,26 @@
 @use '../base/variable' as v;
 @use '../base/mixin' as m;
+
+nav{ 
+    background-color: map-get(v.$navegacion, color_fondo);
+    list-style-type: map-get(v.$navegacion, lista_horizontal);
+    ul{
+        display: flex;
+        flex-direction: row;
+        li{
+            list-style: map-get(v.$navegacion,estilo);
+            :hover{
+                background-color: map-get(v.$navegacion, color_nav_hover);
+                color: map-get(v.$fuente, color_fuente );
+                font-weight: bold;
+            }
+        }
+    }
+};
+footer{
+    position:fixed;
+    left:0%;
+    bottom:0%;
+    height:7%;
+    width:100%;
+};

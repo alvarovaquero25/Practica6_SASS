@@ -159,4 +159,29 @@ nav ul li :hover {
   background-color: #49117c;
   width: 80px;
   height: 80px;
+}
+
+nav {
+  background-color: rgb(242, 140, 240);
+  list-style-type: none;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li :hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 251);
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  height: 7%;
+  width: 100%;
 }/*# sourceMappingURL=app.css.map */
